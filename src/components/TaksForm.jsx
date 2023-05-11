@@ -42,7 +42,7 @@ function TaskForm() {
         />
         {image && <img src={image} alt="Imagen" />}
 
-        <button className="bg-indigo-500 px-3 py-1 text-white rounded-lg mt-5">
+        <button className="bg-indigo-500 px-3 py-1 text-white rounded-lg mt-5 hover:bg-indigo-400">
           Guardar
         </button>
       </form>
