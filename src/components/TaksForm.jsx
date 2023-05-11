@@ -35,7 +35,7 @@ function TaskForm() {
 
 
         <input
-          placeholder="Agregue url de la peli"
+          placeholder="Agregue url del poster"
           onChange={(e) => setImage(e.target.value)}
           value={image}
           className="bg-slate-300 p-3 w-full mb-2"
